@@ -1,13 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import portimg from "../assets/images/portImg.png";
+import Courierimg from "../assets/images/CourierImg.jpeg";
+import toDoimg from "../assets/images/toDoImg.jpeg";
 const projects = [
   {
     title: "Portfolio Website",
     category: "React + TailwindCSS + ShadCN",
     description:
       "Designed and developed a fully responsive personal portfolio to showcase my skills, academic background, and project experience. Integrated smooth navigation, animated components, and visually appealing UI using ShadCN components and TailwindCSS. This portfolio serves as my digital resume and includes links to my GitHub, resume, and featured events I've conducted or participated in.",
-    img: "portImg.png",
+    img: portimg,
     link: "https://my-portfolio-project-siri-hps-projects.vercel.app/",
   },
   {
@@ -15,7 +17,7 @@ const projects = [
     category: "Python + JavaScript",
     description:
       "Built a desktop-based Courier Management System that allows courier companies to manage shipments efficiently. The application includes modules for booking, tracking, updating delivery status, and managing customer information. Developed the backend logic using Python (Tkinter + SQLite) and incorporated JavaScript for input validation in form-based UI screens.",
-    img: "CourierImg.jpeg",
+    img: Courierimg,
     link: "#",
   },
   {
@@ -23,7 +25,7 @@ const projects = [
     category: "JavaScript + React + Node.js",
     description:
       "Developed a feature-rich To-Do List web app using React for frontend and Node.js with Express for backend. Users can create tasks with due dates, categorize them, and mark them as completed. Implemented automatic timeout for expired tasks, live validation, and persistent storage using local server.",
-    img: "toDoImg.jpeg",
+    img: toDoimg,
     link: "https://vercel.com/siri-hps-projects/todo-app/9Qv5YCpEEd1RnVDBUun3Zy8WztFE",
   },
   {

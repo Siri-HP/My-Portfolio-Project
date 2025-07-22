@@ -1,22 +1,24 @@
 import React from "react";
-
+import portimg from "../assets/images/portImg.png";
+import Courierimg from "../assets/images/CourierImg.jpeg";
+import toDoimg from "../assets/images/toDoImg.jpeg";
 const projects = [
   {
     title: "Portfolio Website",
     category: "Web Development React+Shadcn+Tailwindcss",
-    img: "portImg.png",
+    img: portimg,
     link: "https://my-portfolio-project-siri-hps-projects.vercel.app/",
   },
   {
     title: "Courier Management System",
     category: "Python + JavaScript",
-    img: "CourierImg.jpeg",
+    img: Courierimg,
     link: "#",
   },
   {
     title: "To-Do List",
     category: "Javascript+React+Node.js",
-    img: "toDoImg.jpeg",
+    img: toDoimg,
     link: "https://todo-app-siri-hps-projects.vercel.app/",
   },
   {
