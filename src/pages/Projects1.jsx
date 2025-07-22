@@ -8,7 +8,7 @@ const projects = [
     description:
       "Designed and developed a fully responsive personal portfolio to showcase my skills, academic background, and project experience. Integrated smooth navigation, animated components, and visually appealing UI using ShadCN components and TailwindCSS. This portfolio serves as my digital resume and includes links to my GitHub, resume, and featured events I've conducted or participated in.",
     img: "portImg.png",
-    link: "#",
+    link: "https://my-portfolio-project-siri-hps-projects.vercel.app/",
   },
   {
     title: "Courier Management System",
