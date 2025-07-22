@@ -5,7 +5,7 @@ const projects = [
     title: "Portfolio Website",
     category: "Web Development React+Shadcn+Tailwindcss",
     img: "portImg.png",
-    link: "#",
+    link: "https://my-portfolio-project-siri-hps-projects.vercel.app/",
   },
   {
     title: "Courier Management System",
@@ -17,7 +17,7 @@ const projects = [
     title: "To-Do List",
     category: "Javascript+React+Node.js",
     img: "toDoImg.jpeg",
-    link: "#",
+    link: "https://todo-app-siri-hps-projects.vercel.app/",
   },
   {
     title: "Authentication System",
@@ -50,7 +50,7 @@ export default function Projects({ id }) {
             className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2"
           >
             <img
-              //   src={project.img}
+              src={project.img}
               alt={project.title}
               className="w-full h-48 object-cover"
             />
